@@ -8,8 +8,7 @@ import { Card } from "@/components/ui/card"
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "@/components/ui/dropdown-menu"
 import { TabsDemo } from "./tabsren"
-import { motion } from "framer-motion";
-import { HeroHighlight, Highlight } from "../ui/hero-highlights";
+
 
 
 export function LandingPage() {
@@ -67,8 +66,8 @@ export function LandingPage() {
         <Button
   variant="outline"
   className="bg-blue-600 text-white px-8 py-4 rounded-full text-lg transition-transform transform hover:scale-105"
->
-  Get started
+>Get started
+ 
 </Button>
 
       </section>
